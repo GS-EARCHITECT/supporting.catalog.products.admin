@@ -11,9 +11,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EntityScan(basePackages ={"product_mgmt","service_mgmt"})
-@EnableJpaRepositories(basePackages ={ "product_mgmt","service_mgmt"})
-@ComponentScan(basePackages ={"product_mgmt","service_mgmt"})
+@EntityScan(basePackages ={"catalog_master_mgmt","compclass_mgmt","location_class_structure_mgmt","pricerange_mgmt","rating_mgmt","resource_class_structure_mgmt"})
+@EnableJpaRepositories(basePackages ={ "catalog_master_mgmt","compclass_mgmt","location_class_structure_mgmt","pricerange_mgmt","rating_mgmt","resource_class_structure_mgmt"})
+@ComponentScan(basePackages ={"catalog_master_mgmt","compclass_mgmt","location_class_structure_mgmt","pricerange_mgmt","rating_mgmt","resource_class_structure_mgmt"})
 public class CatalogProductMgmt_Main extends SpringBootServletInitializer  
 {
 
